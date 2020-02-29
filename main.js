@@ -23,8 +23,9 @@ function sortList(){
     if (checkNum()){
         // Call getList to populate numList
         getList();
-        // Sort numList and print the sorted list
-        numList.sort();
+        // Sort numList in ascending order
+        numList.sort(function(a,b) {return a-b});
+        // Print the sorted list
         output.innerHTML = "Your sorted list of numbers is: " + numList[0] + ", " + numList[1] + ", " + numList[2] + ".";
         numSortForm.after(output);
     }

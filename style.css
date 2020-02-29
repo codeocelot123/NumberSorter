@@ -1,0 +1,44 @@
+body {
+    background-color: #2F4B61;
+}
+#container {
+    background-color: #E1E1E1;
+    width: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+}
+
+header, footer {
+    background-color: #717A81;
+}
+header {
+    color: #ACD6DC;
+    text-shadow: 5px 5px 20px #1F1f1f;
+    text-align: center;
+    padding: 20px;
+}
+article {
+    padding: 50px;
+}
+form {
+    margin: 20px;
+}
+form button {
+    margin: 10px;
+    padding: 7px;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+}
+h1 {
+    margin: 0;
+}
